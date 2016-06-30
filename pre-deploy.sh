@@ -1,3 +1,4 @@
+#!/bin/bash
 # TODO: argument patch
 
 npm version patch -m "release v%s"
