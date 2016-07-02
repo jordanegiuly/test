@@ -1,2 +1,3 @@
 npm-debug.log
-pre-deploy2.sh
+pre-deploy.sh
+node_modules
