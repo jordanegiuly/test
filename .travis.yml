@@ -2,6 +2,12 @@ language: node_js
 node_js:
 - '5.11'
 
+before_deploy:
+  - echo "DEPLOY STAGING"
+  on:
+    branch: staging
+
+
 deploy:
   - provider: codedeploy
     access_key_id: AKIAJ253F7NSZKJ2KCTA
