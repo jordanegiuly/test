@@ -2,10 +2,8 @@ language: node_js
 node_js:
 - '5.11'
 
-before_deploy: echo "DEPLOY STAGING"
-  on:
-    branch: staging
-
+before_deploy:
+- ./pre-deploy.sh
 
 deploy:
   - provider: codedeploy
