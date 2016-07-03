@@ -10,7 +10,7 @@ deploy:
   bucket: ''
   key: ''
   bundle_type: ''
-  application: test
+  application: DemoApplicationJG
   deployment_group: testProd
   on:
     repo: jordanegiuly/test
