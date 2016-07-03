@@ -11,6 +11,7 @@ deploy:
     application: DemoApplicationJG
     deployment_group: testProd
     region: eu-west-1
+    wait-until-deployed: true
     on:
       branch: master
   - provider: codedeploy
@@ -21,5 +22,6 @@ deploy:
     application: DemoApplicationJG
     deployment_group: testStaging
     region: eu-west-1
+    wait-until-deployed: true
     on:
       branch: staging
