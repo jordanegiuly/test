@@ -4,25 +4,25 @@ node_js:
 
 deploy:
   - provider: codedeploy
-  access_key_id: AKIAJ6WO5VDPZ4EBFEUA
-  secret_access_key:
-    secure: w68nJRIFnW4aRHclqartPv1G0SE2vwRQ9kWgZctMN3uVmqmGJsExn2ZPBHJ9Lbex0O8gr/zlDAMxk7HSb7D9TGV0ULRS6muZXYSna3UAWe2Us1eteGa+X7WJlLoN2iyo/BflLiaVp2/UR2zkVZDy4exjQ8/SRmV2et9j3/zYh86jKtMQnrM9G19cC9wbsqv2nA9MBj5TtIvpflEBPUubBA3utjFdqvZekri861g3CfNtD1eEhvyaq62PVnymhT2Q2/n1VfkGyRQ1c8v/y2WEZf3BylG/zhR/EnAAKA2h0bwbcQafUlhMEQJyc48+WI+AXdMyl3ACVGTf2obrJXyPlxP90UPdQeUO3Q/L0L0E6+ocdLF2zAp76j9seeH5uUulELPOFFiwpB1yboMalrMcL1uiyQJl7Em8zSNWqFY/kvjFL8kB4e4usDnGygxaNeDAuMDHjA42h4Y5QyempmZDBYvozFIBvdPSZHVcAG+KDnac7iOq5Lm8qgJZZOVr1sTuX4aGxg7xQZ9bFIkd/Z94By7wbKv7HaEX29t014GwEqTXPFR7KTT+HjsrZD1rQcVn2Bq0DktSm15jZVzIODP2veXekhi9bplcWZVpHXVWapGV+M5P7JoTpzLaj8k+hy1nH3p7+PHlj5R3r9VW4du54fonJIuXC5noFAiNF7hhcvo=
-  revision_type: github
-  application: DemoApplicationJG
-  deployment_group: testProd
-  region: eu-west-1
-  on:
-    branch: master
+    access_key_id: AKIAJ6WO5VDPZ4EBFEUA
+    secret_access_key:
+      secure: w68nJRIFnW4aRHclqartPv1G0SE2vwRQ9kWgZctMN3uVmqmGJsExn2ZPBHJ9Lbex0O8gr/zlDAMxk7HSb7D9TGV0ULRS6muZXYSna3UAWe2Us1eteGa+X7WJlLoN2iyo/BflLiaVp2/UR2zkVZDy4exjQ8/SRmV2et9j3/zYh86jKtMQnrM9G19cC9wbsqv2nA9MBj5TtIvpflEBPUubBA3utjFdqvZekri861g3CfNtD1eEhvyaq62PVnymhT2Q2/n1VfkGyRQ1c8v/y2WEZf3BylG/zhR/EnAAKA2h0bwbcQafUlhMEQJyc48+WI+AXdMyl3ACVGTf2obrJXyPlxP90UPdQeUO3Q/L0L0E6+ocdLF2zAp76j9seeH5uUulELPOFFiwpB1yboMalrMcL1uiyQJl7Em8zSNWqFY/kvjFL8kB4e4usDnGygxaNeDAuMDHjA42h4Y5QyempmZDBYvozFIBvdPSZHVcAG+KDnac7iOq5Lm8qgJZZOVr1sTuX4aGxg7xQZ9bFIkd/Z94By7wbKv7HaEX29t014GwEqTXPFR7KTT+HjsrZD1rQcVn2Bq0DktSm15jZVzIODP2veXekhi9bplcWZVpHXVWapGV+M5P7JoTpzLaj8k+hy1nH3p7+PHlj5R3r9VW4du54fonJIuXC5noFAiNF7hhcvo=
+    revision_type: github
+    application: DemoApplicationJG
+    deployment_group: testProd
+    region: eu-west-1
+    on:
+      branch: master
   - provider: codedeploy
-  access_key_id: AKIAJ6WO5VDPZ4EBFEUA
-  secret_access_key:
-    secure: w68nJRIFnW4aRHclqartPv1G0SE2vwRQ9kWgZctMN3uVmqmGJsExn2ZPBHJ9Lbex0O8gr/zlDAMxk7HSb7D9TGV0ULRS6muZXYSna3UAWe2Us1eteGa+X7WJlLoN2iyo/BflLiaVp2/UR2zkVZDy4exjQ8/SRmV2et9j3/zYh86jKtMQnrM9G19cC9wbsqv2nA9MBj5TtIvpflEBPUubBA3utjFdqvZekri861g3CfNtD1eEhvyaq62PVnymhT2Q2/n1VfkGyRQ1c8v/y2WEZf3BylG/zhR/EnAAKA2h0bwbcQafUlhMEQJyc48+WI+AXdMyl3ACVGTf2obrJXyPlxP90UPdQeUO3Q/L0L0E6+ocdLF2zAp76j9seeH5uUulELPOFFiwpB1yboMalrMcL1uiyQJl7Em8zSNWqFY/kvjFL8kB4e4usDnGygxaNeDAuMDHjA42h4Y5QyempmZDBYvozFIBvdPSZHVcAG+KDnac7iOq5Lm8qgJZZOVr1sTuX4aGxg7xQZ9bFIkd/Z94By7wbKv7HaEX29t014GwEqTXPFR7KTT+HjsrZD1rQcVn2Bq0DktSm15jZVzIODP2veXekhi9bplcWZVpHXVWapGV+M5P7JoTpzLaj8k+hy1nH3p7+PHlj5R3r9VW4du54fonJIuXC5noFAiNF7hhcvo=
-  revision_type: github
-  application: DemoApplicationJG
-  deployment_group: testStaging
-  region: eu-west-1
-  on:
-    branch: staging
+    access_key_id: AKIAJ6WO5VDPZ4EBFEUA
+    secret_access_key:
+      secure: w68nJRIFnW4aRHclqartPv1G0SE2vwRQ9kWgZctMN3uVmqmGJsExn2ZPBHJ9Lbex0O8gr/zlDAMxk7HSb7D9TGV0ULRS6muZXYSna3UAWe2Us1eteGa+X7WJlLoN2iyo/BflLiaVp2/UR2zkVZDy4exjQ8/SRmV2et9j3/zYh86jKtMQnrM9G19cC9wbsqv2nA9MBj5TtIvpflEBPUubBA3utjFdqvZekri861g3CfNtD1eEhvyaq62PVnymhT2Q2/n1VfkGyRQ1c8v/y2WEZf3BylG/zhR/EnAAKA2h0bwbcQafUlhMEQJyc48+WI+AXdMyl3ACVGTf2obrJXyPlxP90UPdQeUO3Q/L0L0E6+ocdLF2zAp76j9seeH5uUulELPOFFiwpB1yboMalrMcL1uiyQJl7Em8zSNWqFY/kvjFL8kB4e4usDnGygxaNeDAuMDHjA42h4Y5QyempmZDBYvozFIBvdPSZHVcAG+KDnac7iOq5Lm8qgJZZOVr1sTuX4aGxg7xQZ9bFIkd/Z94By7wbKv7HaEX29t014GwEqTXPFR7KTT+HjsrZD1rQcVn2Bq0DktSm15jZVzIODP2veXekhi9bplcWZVpHXVWapGV+M5P7JoTpzLaj8k+hy1nH3p7+PHlj5R3r9VW4du54fonJIuXC5noFAiNF7hhcvo=
+    revision_type: github
+    application: DemoApplicationJG
+    deployment_group: testStaging
+    region: eu-west-1
+    on:
+      branch: staging
 
 # deploy:
 #   provider: codedeploy
