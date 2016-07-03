@@ -10,5 +10,6 @@ deploy:
   revision_type: github
   application: DemoApplicationJG
   deployment_group: DemoFleet
+  region: eu-west-1
   on:
     repo: jordanegiuly/test
